@@ -1,0 +1,13 @@
+1 4
+usolid       
+ 3 3 1 2 3
+disp       
+ 3 3 1 2 3
+stress
+ 6 3 1 2 3
+stress
+ 6 3 4 5 6
+ 
+ 
+------------------------------------------------------------
+Please see file fluid_gidpost.dof for the meaning of these numbers.

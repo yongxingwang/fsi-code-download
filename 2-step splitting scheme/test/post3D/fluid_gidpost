@@ -1,0 +1,6 @@
+Result "velocity" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v" "w"                                   
+Result "pressure" "Load Analysis" ### Scalar OnNodes          
+ComponentNames "p"                                        
+Mesh "aec27g3" Dimension 3 Elemtype Hexahedra Nnode 27
+#

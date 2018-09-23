@@ -1,0 +1,10 @@
+Result "velocity" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v" "w"                                        
+Result "displacement" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v" "w"    
+Result "stress1" "Load Analysis" ### Vector OnNodes          
+ComponentNames "sxx" "syy" "szz"
+Result "stress2" "Load Analysis" ### Vector OnNodes          
+ComponentNames "sxy" "syz" "sxz"                                                                                                                                                
+Mesh "aew4" Dimension 3 Elemtype Tetrahedra Nnode 4
+#

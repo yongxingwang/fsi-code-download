@@ -1,0 +1,23 @@
+ufluid
+press
+usolid
+disp
+stress
+
+
+-------------------------
+ufluid:   fluid velocity
+press:    pressure
+usolid:   solid velocity
+disp:     solid displacment
+stress:   Cauchy stress
+
+Note: if you do not want, such as, pressure to be sotored, then just delete "press".
+At the same time, when visualising the results, you should also modify the files 
+'fluid_gidpost.dof' and 'fluid_gidpost'
+in /post: delete the pressure lines.
+
+
+
+
+

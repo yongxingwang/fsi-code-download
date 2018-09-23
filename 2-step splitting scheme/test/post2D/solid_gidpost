@@ -1,0 +1,8 @@
+Result "velocity" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v"                                        
+Result "displacement" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v"     
+Result "stress" "Load Analysis" ### Vector OnNodes          
+ComponentNames "sxx" "syy" "sxy"                                                                                                                                                 
+Mesh "aet3" Dimension 2 Elemtype Triangle Nnode 3
+#

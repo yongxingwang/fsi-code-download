@@ -1,0 +1,6 @@
+Result "velocity" "Load Analysis" ### Vector OnNodes          
+ComponentNames "u" "v"                                      
+Result "pressure" "Load Analysis" ### Scalar OnNodes          
+ComponentNames "p"                                        
+Mesh "aeq9g3" Dimension 2 Elemtype Quadrilateral Nnode 9
+#

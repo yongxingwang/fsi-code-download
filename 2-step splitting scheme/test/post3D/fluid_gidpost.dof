@@ -1,0 +1,17 @@
+1 2
+ufluid
+ 3 3 1 2 3
+press
+ 1 1 1
+
+
+
+----------------------------------------------------------------------------------------------------
+1st row: the first number tells you how many steps you want to visualise.
+         the second number tells you how many varibles/files you want to visualise;
+2nd row: the file named "ufluid.1" "ufluid.2"... will be read by gidpost0.for.
+3rd row: the first number 3 tells you the file "ufluid.*" has 3 degrees of freedom;
+         the scond number 3 tells you want to visualise 3 degrees of freedom;
+		 the third number to the last number tells you which 3 degrees of freedom you want to visualise.
+4th and 5th row: refer to the above explanations.		 
+
