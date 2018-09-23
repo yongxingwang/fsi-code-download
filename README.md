@@ -1,5 +1,5 @@
 # fsi-code-download
-The method has been presented systematically in the thesis: one-field fictitious domain method_PhD thesis_2018.PDF
+The method has been presented systematically in the attached thesis: one-field fictitious domain method_PhD thesis_2018.PDF
 
 The 2-step splitting scheme decouples the convection and diffusion steps of the Navier-Stokes equations, and a preconditioned MinRes algorithm is used to solve the Stokes problem, however this linear solver cannot converge for channel flows, such as Test8 and Test11 in the attached thesis. When further splitting the Stokes equation as diffusion and pressure steps, the diffusion problem can be efficiently solved using Conjugate Gradient method while the pressure step can be efficiently solved using preconditioned MinRes algorithm. This is why the 3-step splitting scheme is introduced, and this scheme can solve all the numerical test in the thesis.
 
