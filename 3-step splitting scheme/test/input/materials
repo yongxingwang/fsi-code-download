@@ -1,0 +1,20 @@
+1               !Number of parameter sets, given in different columns below.
+1.d2
+1.d1
+1.d2
+1.d7
+0.d0
+0.d0
+0.d0
+
+
+===================================================
+Meanings of the above parametrs respectively:      
+1. fluid density:                            rhof
+2. fluid viscosity:                          muf
+3. solid density:                            rhos
+4. incompressible neo-Hookean solid:         mus/G/c1
+5. gravity in the x-direction:               gx
+6. gravity in the y-direction:               gy
+7. gravity in the y-direction:               gz
+===================================================
