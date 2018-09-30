@@ -1,0 +1,14 @@
+# Use current working directory, export loaded modules
+#$ -cwd -V
+# request 16 processors for parallel MPI run on ARC2
+#$ -l np=1
+# -pe ib 16
+# request one hour of runtime
+#$ -l h_rt=48:00:00
+# send mail when job starts and ends
+#$ -m be
+# email address
+#$ -M scywa@leeds.ac.uk
+# launch program
+csh run.linux.sh 
+
