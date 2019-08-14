@@ -1,0 +1,19 @@
+10.      tmax
+0.002     dt
+50       nstep
+100      itnmax
+1.0e-6   tolerance
+1.0e-3   dampalfa
+1.0e-4   dampbeta
+
+
+
+
+------------------------------------------------------
+tmax:       maximal computing time
+dt:         size of time step
+nstep:      store the results every 10 steps
+itnmax;     maximal iteration for non-linear iteration (not used in this code)
+tolerance:  tolerance for linear solver
+dampalfa:   damping coefficient (not used in this code)
+dampbeta    damping coefficient (not used in this code)
