@@ -1,0 +1,29 @@
+1              // Number of parameter sets (solid can have different paramters), given in different columns below.
+1.e3     // re
+1.0      // rhor
+1.0      // mur
+2.e3     // \bar{c1}
+0.0      // Fr
+
+
+===================================================
+Meanings of the above parametrs respectively:   
+1. Reynolds number    re=rhof*U*L/muf
+2. density ratio:     rhor=rhos/rhof
+3. viscosity ratio:   mur=mus/muf
+4. solid parameter:   \bar{c1}=c1/rhof/U^2
+5. Froude number:     Fr=|g|*L/U^2
+
+with
+
+rhof:  fluid density
+muf:   fluid viscosity
+rhos:  solid density
+mus:   solid viscosity
+c1:    parameter for the incompressible neo-Hookean solid
+U:     reference velocity
+L:     reference length
+g:     gravity
+===================================================
+
+
