@@ -1,0 +1,8 @@
+2dxy_
+#a 1 3 u v p
+ vde fsi q9g3
+#b 0 2 u v
+ vde mesh q9g3
+#c 0 2 u v
+ vde conv q9g3
+#end

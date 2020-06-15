@@ -1,0 +1,23 @@
+defi
+stif s
+mass m
+load f
+type e
+mdty l
+step 0
+ 
+coef un um
+ 
+equation
+vect un um
+read(s,unod) un
+read(s,unodb) um
+matrix = [s]
+forc=[f]
+ 
+solution u
+vect u
+write(s,unod) u
+
+end
+

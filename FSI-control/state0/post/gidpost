@@ -1,0 +1,10 @@
+Result "velocity" "Load Analysis" #### Vector OnNodes          
+ComponentNames "u" "v"                                      
+Result "p" "Load Analysis" #### Scalar OnNodes          
+ComponentNames "p" 
+Result "force" "Load Analysis" #### Vector OnNodes          
+ComponentNames "fx" "fy"   
+Result "disp" "Load Analysis" #### Vector OnNodes          
+ComponentNames "dx" "dy"                                                                    
+Mesh "aeq9g3" Dimension 2 Elemtype Quadrilateral Nnode 9
+#

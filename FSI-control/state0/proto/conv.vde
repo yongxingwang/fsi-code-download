@@ -1,0 +1,38 @@
+disp u,v
+coor x,y
+coef un vn um vm
+func lx ly
+shap %1 %2
+gaus %3
+mate data
+vect u u v
+vect x x y
+vect un un vn
+vect um um vm
+vect f fx fy
+vect p px py
+vect l lx ly
+matrix gun
+gxx gxy
+gyx gyy
+
+ 
+func
+$cv gun_i_j={un_i/x_j}
+$cv f_i=+gun_i_j*un_j
+$cv p_i=+un_i+f_i*dt
+$cv gun_i_j = gun_i_j*dt
+$cv gun_i_i = gun_i_i + 1.0
+lx = +[u]*gxx+[v]*gxy+[u/x]*(un-um)*dt+[u/y]*(vn-vm)*dt
+
+ly = +[u]*gyx+[v]*gyy+[v/x]*(un-um)*dt+[v/y]*(vn-vm)*dt
+
+stif
+dist=+[l_i;l_i]
+ 
+load=+[l_i]*p_i
+ 
+end
+ 
+ 
+

@@ -1,0 +1,24 @@
+defi
+stif s
+mass m
+load f
+type p
+mdty l
+step 0
+
+coef us vs fx fy
+
+equation
+vect u0
+var us vs fx fy
+read(s,unod) u0
+read(s,unods) us vs
+read(s,force) fx fy
+matrix = [s]+[m]/dt
+forc=[f]+[m]*[u0]/dt
+
+solution u
+vect u
+write(s,unod) u
+
+end

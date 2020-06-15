@@ -1,0 +1,26 @@
+defi
+a fsi
+b mesh
+c conv
+
+fl32 upcoor.for
+fl32 bft.for
+
+startumf a
+startumf b
+startumf c
+
+copy coor0 coor0bak
+
+if exist stop del stop
+:1
+bft
+
+solvumf c
+solvumf a
+solvumf b
+
+upcoor coor0 unodb time unods
+
+post
+if not exist stop goto 1

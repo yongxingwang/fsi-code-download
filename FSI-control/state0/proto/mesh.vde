@@ -1,0 +1,35 @@
+disp u,v
+coor x,y
+func div dxx dyy dxy
+shap %1 %2
+gaus %3
+mass %1 rou rou
+mate rous rouf emu elamda 1.d0 1.d0 1.d2 1.d2
+$c6 if (imate.eq.1) then
+$c6 rou=rouf
+$c6 else
+$c6 rou=rous
+$c6 endif
+vect u u v
+vect x x y
+matr du 2 2
+dxx dxy
+dxy dyy
+
+
+func
+div = +[u/x]+[v/y]
+
+dxx = +[u/x]*2.d0
+
+dxy = +[u/y]+[v/x]
+
+dyy = +[v/y]*2.d0
+
+stif
+dist=+[du_i_j;du_i_j]*emu/2.d0
++[div;div]*elamda
+
+load=+[u]*0.d0
+
+end

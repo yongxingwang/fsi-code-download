@@ -1,0 +1,19 @@
+defi
+stif s
+mass m
+load f
+type p
+mdty l
+step 0
+
+equation
+vect u0
+read(s,unodb) u0
+matrix = [s]+[m]/dt
+forc=[f]+[m]*[u0]/dt
+
+solution u
+vect u
+write(s,unod) u
+
+end
