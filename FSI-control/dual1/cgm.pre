@@ -1,0 +1,42 @@
+2dxy_ 4 3 8 10
+cgma 1 2 4 u v p 
+cgmb 0 2 4 u v 
+cgmc 0 2 1 u v 
+cgmd 0 1 1 o 
+#
+element y
+cgma
+aeq9g3 9 c1 rous rouf emuf
+all3g3 3 fu fv
+#
+cgmb
+beq9g3 9 rous rouf emu elamda
+bll3g3 3 fu fv
+#
+cgmc
+ceq9g3 9 data
+cll3g3 3 data
+#
+cgmd
+deq9g3 9 data
+#
+matedata
+cgma aeq9g3
+2.d-1 1.d0 1.d0 1.d-2
+cgma aeq9g3
+2.d-1 1.d0 1.d0 1.d-2
+cgma all3g3
+0.d0 0.d0
+cgmb beq9g3
+1.d0 1.d0 1.d0 1.d0
+cgmb bll3g3
+0.d0 0.d0
+cgmc ceq9g3
+0.d0
+cgmc cll3g3
+0.d0
+cgmd deq9g3
+0.d0
+cgmd deq9g3
+0.d0
+#

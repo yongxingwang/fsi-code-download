@@ -1,0 +1,6 @@
+Result "uhat" "Load Analysis" #### Vector OnNodes          
+ComponentNames "u" "v"         
+Result "what" "Load Analysis" #### Vector OnNodes          
+ComponentNames "u" "v"                                                                                                        
+Mesh "aeq9g3" Dimension 2 Elemtype Quadrilateral Nnode 9
+#
