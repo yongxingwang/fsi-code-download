@@ -1,0 +1,19 @@
+BeginZE cgm.gid\cgm.vv
+   x -2.84357 6.84357
+   y 2.71108 -1.71108
+   z -6.63325 6.63325
+   e 2.21108
+   v 0 0 0
+   r 1
+   m 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+   c 2 0.5 0
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 1
+   DrawingType 0
+   LightVector 90 90 150 0
+EndZE cgm.gid\cgm.vv
+
